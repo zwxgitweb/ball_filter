@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='app'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="app/content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/fonts/iconfont.css">
+    <script src='app/content/js/jquery-2.1.1.min.js'></script>
+    <script src='app/content/js/bootstrap.min.js'></script>
+    <script src='app/content/js/angular.min.js'></script>
+</head>
+<body ng-controller='myctr'>
+    <div id="wrap">
+        search:<input type="text" ng-model='search'>
+        orderBy：<input type="text" ng-model='val'>
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <th>
+                        <td>姓名</td>
+                        <td>位置</td>
+                        <td>号码</td>
+                        <td>球队</td>
+                        <td>票数</td>
+                        <td>操作</td>
+                    </th>
+                </thead>
+                <tbody>
+                    <tr ng-repeat='item in data | filter:search | orderBy:val'>
+                        <td><i class="iconfont " ng-class='item.src'></i></td>
+                        <td>{{item.name}}</td>
+                        <td>{{item.place}}</td>
+                        <td>{{item.num}}</td>
+                        <td>{{item.pull}}</td>
+                        <td>{{item.tickets}}</td>
+                        <td><button>编辑</button><button ng-click='removeData($index)'>删除</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- angular的模块化管理 -->
+    <script src='app/app.js'></script>
+    <!-- angular声明控制器 -->
+    <script src='app/controller/controller.js'></script>
+</body>
+</html>

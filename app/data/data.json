@@ -1,0 +1,66 @@
+[
+    {
+        "src": "icon-29",
+        "name": "ertytv",
+        "place": "后卫",
+        "num": 0,
+        "pull": "雷霆",
+        "tickets": 1997
+    },
+    {
+        "src": "icon-27",
+        "name": "werty",
+        "place": "大前排",
+        "num": 23,
+        "pull": "骑士",
+        "tickets": 1998
+    },
+    {
+        "src": "icon-50",
+        "name": "jaerty",
+        "place": "得分后卫",
+        "num": 30,
+        "pull": "勇士",
+        "tickets": 1999
+    },
+    {
+        "src": "icon-yonghu",
+        "name": "qerty",
+        "place": "小前锋",
+        "num": 13,
+        "pull": "火箭",
+        "tickets": 2000
+    },
+    {
+        "src": "icon-dazhongdianping",
+        "name": "sserty",
+        "place": "中锋",
+        "num": 4,
+        "pull": "公牛",
+        "tickets": 2001
+    },
+    {
+        "src": "icon-reddit",
+        "name": "zerty",
+        "place": "控球",
+        "num": 16,
+        "pull": "狼王",
+        "tickets": 2001
+    },
+    {
+        "src": "icon-twitter",
+        "name": "derty",
+        "place": "打分是的",
+        "num": 12,
+        "pull": "尼克斯",
+        "tickets": 2003
+    },
+    {
+        "src": "icon-fenlei",
+        "name": "gerty",
+        "place": "打分",
+        "num": 124,
+        "pull": "快船",
+        "tickets": 2017
+    }
+]
